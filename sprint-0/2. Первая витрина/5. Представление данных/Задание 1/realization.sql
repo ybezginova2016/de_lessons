@@ -1,4 +1,5 @@
-DROP VIEW IF EXISTS client_activity;
+-- DROP VIEW IF EXISTS client_activity;
+DROP MATERIALIZED VIEW IF EXISTS client_activity;
 CREATE VIEW client_activity AS
 WITH i AS (
     SELECT customer_id, 

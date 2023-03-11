@@ -1,5 +1,5 @@
--- добавьте код сюда
-
+DROP MATERIALIZED VIEW IF EXISTS user_activity_payment_datamart; 
+CREATE MATERIALIZED VIEW user_activity_payment_datamart AS (
 WITH ual AS (
 	SELECT client_id,
 				 DATE(MIN(CASE WHEN action = 'visit' THEN hitdatetime ELSE NULL END)) AS fst_visit_dt,
@@ -24,4 +24,4 @@ SELECT ua.client_id,
 FROM user_attributes AS ua
 LEFT JOIN ual ON ua.client_id = ual.client_id
 LEFT JOIN upl ON ua.client_id = upl.client_id
-;
+);

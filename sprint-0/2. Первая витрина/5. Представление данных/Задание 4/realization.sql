@@ -1,4 +1,6 @@
 -- Этот запрос должен стать представлением
+DROP VIEW IF EXISTS client_activity; 
+CREATE MATERIALIZED VIEW client_activity AS (
 WITH i AS (
     SELECT customer_id, 
            DATE_TRUNC('month', CAST(invoice_date AS timestamp)) AS invoice_month, 
@@ -16,3 +18,4 @@ LEFT JOIN client
 ON i.customer_id = client.customer_id
 GROUP BY i.customer_id, i.invoice_month, client.company
 HAVING SUM(i.total) > 1
+);
