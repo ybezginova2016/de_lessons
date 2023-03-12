@@ -29,3 +29,7 @@ SELECT client_id,
        is_registration,
        total_payment_amount
 FROM user_activity_and_payment;
+SELECT table_name, column_name, is_nullable
+FROM information_schema.columns
+WHERE table_name in ('user_payment_log','user_activity_log','user_attributes')
+AND is_nullable = 'YES'
