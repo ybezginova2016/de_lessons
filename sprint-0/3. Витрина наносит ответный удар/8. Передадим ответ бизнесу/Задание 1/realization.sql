@@ -1,1 +1,3 @@
--- этот файл не сдаётся, но вы можете использовать его для своего кода
+-- SELECT * FROM pg_matviews;
+
+DROP MATERIALIZED VIEW IF EXISTS client_activity;
