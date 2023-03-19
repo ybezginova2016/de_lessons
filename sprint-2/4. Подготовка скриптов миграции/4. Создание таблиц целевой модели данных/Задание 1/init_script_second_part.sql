@@ -1,3 +1,18 @@
+-- Таблицы должны создаваться в схеме public и иметь следующие атрибуты:
+
+-- Колонки first_name, last_name имеют тип text без ограничения длины текста.
+-- Колонки utm_campaign, action имеют тип VARCHAR с ограничением количества символов.
+-- Для utm_campaign — 30 символов, для action — 20 символов.
+
+-- Колонка hit_date_time имеет тип timestamp.
+
+-- Колонки payment_amount, payment, num имеют тип NUMERIC. Количество цифр в числе 14, а количество цифр после запятой — 2.
+-- Для всех таблиц, кроме f_sales, создайте индекс по первичному ключу. Для таблицы f_sales создайте индекс
+-- по колонке order_id. Индексы должны иметь следующие названия:
+-- client_id_index, user_payment_log_id_index, user_activity_id_index, order_id_index, bucket_id_index, sales_order_id_index.
+-- В результате выполнения скрипта должны создаться таблицы с перечисленными выше свойствами и индексами.
+-- При повторном запуске скрипта таблицы должны быть удалены и заново созданы.
+
 DROP TABLE IF EXISTS public.d_user_payment_log;
 DROP TABLE IF EXISTS public.d_user_activity_log;
 DROP TABLE IF EXISTS public.f_sales;
@@ -17,6 +32,9 @@ CREATE TABLE public.d_clients(
    PRIMARY KEY  (client_id)
 );
 CREATE INDEX client_id_index ON public.d_clients(client_id);
+
+-- Колонки sale_id, order_id, bucket_id, product_id, category_id, client_id, activity_id,
+-- payment_log_id имеют тип BIGINT без автоинкремента и являются первичными ключами.
 
 --d_user_payment_log
 CREATE TABLE public.d_user_payment_log(
