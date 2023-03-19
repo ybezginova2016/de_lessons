@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9f7f81-93d4-4718-b1ab-07e45559f058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/alter_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/create_index.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/create_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/drop_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/5. Подготовка переноса данных в новую модель/lesson_1.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/5. Подготовка переноса данных в новую модель/lesson_2_connections.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/5. Подготовка переноса данных в новую модель/lesson_3.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/ddl_view_constraints.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/func_index_trigger.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sprint-0/3. Витрина наносит ответный удар/7. Как добавить атрибуты в существующую таблицу/Задание 1/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint-0/3. Витрина наносит ответный удар/7. Как добавить атрибуты в существующую таблицу/Задание 1/realization.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sprint-0/3. Витрина наносит ответный удар/8. Передадим ответ бизнесу/Задание 1/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint-0/3. Витрина наносит ответный удар/8. Передадим ответ бизнесу/Задание 1/realization.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sprint-1/4. Подготовка данных витрины/7. Загрузка данных в витрину/Задание 5/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint-1/4. Подготовка данных витрины/7. Загрузка данных в витрину/Задание 5/realization.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/9. Процедуры, функции и триггеры/proced_function_trigger.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Подготовка скриптов миграции/3. Описание исходной модели данных/Задание 1/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/3. Описание исходной модели данных/Задание 1/realization.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/Задание 1/init_script_second_part.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/Задание 1/init_script_second_part.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/Задание 1/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/Задание 1/realization.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Подготовка скриптов миграции/8. Как изменить модель данных/Задание 1/d_product_dimensions_202203160432.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/8. Как изменить модель данных/Задание 1/d_product_dimensions_202203160432.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Подготовка скриптов миграции/8. Как изменить модель данных/Задание 2/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/8. Как изменить модель данных/Задание 2/realization.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Подготовка скриптов миграции/9. Процедуры, функции и триггеры/Задание 1/realization.sql" beforeDir="false" afterPath="$PROJECT_DIR$/4. Подготовка скриптов миграции/9. Процедуры, функции и триггеры/Задание 1/realization.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/4. Подготовка скриптов миграции/4. Создание таблиц целевой модели данных/Задание 1/init_script_second_part.sql" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4. Подготовка скриптов миграции/8. Как изменить модель данных/Задание 1/d_product_dimensions_202203160432.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4. Подготовка скриптов миграции/9. Процедуры, функции и триггеры/Задание 1/realization.sql" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +69,7 @@
       <workItem from="1678484109226" duration="1495000" />
       <workItem from="1678488196819" duration="3649000" />
       <workItem from="1678925764279" duration="2455000" />
-      <workItem from="1679064892093" duration="17587000" />
+      <workItem from="1679064892093" duration="18964000" />
     </task>
     <servers />
   </component>
